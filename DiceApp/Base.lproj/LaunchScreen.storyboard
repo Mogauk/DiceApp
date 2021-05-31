@@ -16,19 +16,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="backgroundApp" translatesAutoresizingMaskIntoConstraints="NO" id="zxi-lp-LqB">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="backgroundApp" translatesAutoresizingMaskIntoConstraints="NO" id="zxi-lp-LqB">
+                                <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                             </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="craps-2" translatesAutoresizingMaskIntoConstraints="NO" id="qXM-9s-ell">
-                                <rect key="frame" x="127" y="355" width="136" height="134"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="craps-2" translatesAutoresizingMaskIntoConstraints="NO" id="65k-tr-ROO">
+                                <rect key="frame" x="120" y="347" width="150" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="5PJ-h3-twv"/>
+                                    <constraint firstAttribute="width" constant="150" id="arX-rK-hWL"/>
+                                </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="appPlanet" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MHY-IY-u1x">
-                                <rect key="frame" x="205" y="750" width="169" height="60"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="60" id="sf4-pE-pN3"/>
-                                </constraints>
+                                <rect key="frame" x="138" y="547" width="114" height="48"/>
                                 <fontDescription key="fontDescription" name="Noteworthy-Light" family="Noteworthy" pointSize="30"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
@@ -37,15 +36,20 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="MHY-IY-u1x" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailingMargin" id="1Mx-dx-ccD"/>
-                            <constraint firstItem="MHY-IY-u1x" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="AQi-wl-NGC"/>
-                            <constraint firstItem="MHY-IY-u1x" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="205" id="aff-nH-2ns"/>
+                            <constraint firstItem="zxi-lp-LqB" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="CQw-I2-En7"/>
+                            <constraint firstItem="zxi-lp-LqB" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="G1b-4m-F6Q"/>
+                            <constraint firstAttribute="bottom" secondItem="zxi-lp-LqB" secondAttribute="bottom" id="G2E-9X-1yZ"/>
+                            <constraint firstItem="65k-tr-ROO" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="G6W-cd-SiP"/>
+                            <constraint firstItem="MHY-IY-u1x" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="Gyt-BR-TB8"/>
+                            <constraint firstItem="65k-tr-ROO" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="VGK-7I-5f7"/>
+                            <constraint firstItem="zxi-lp-LqB" firstAttribute="trailing" secondItem="Ze5-6b-2t3" secondAttribute="trailing" id="ahJ-Td-dti"/>
+                            <constraint firstItem="MHY-IY-u1x" firstAttribute="top" secondItem="65k-tr-ROO" secondAttribute="bottom" constant="50" id="wPg-VP-g3r"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="52.173913043478265" y="375"/>
+            <point key="canvasLocation" x="50.769230769230766" y="374.64454976303318"/>
         </scene>
     </scenes>
     <resources>
